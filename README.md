@@ -70,7 +70,7 @@ TricountAPI(tricount_key: str, app_id: str = "")
 
 Create a new instance.
 
-- `tricount_key`: Public identifier token for the tricount.
+- `tricount_key`: Public identifier token for the tricount, found in the tricount URL (e.g, https://tricount.com/tZqzdVuUqIcJBaTVmo).
 - `app_id`: Optional fixed app installation ID to maintain consistent sessions. If omitted, a UUID will be generated.
 
 
