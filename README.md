@@ -1,4 +1,4 @@
-# TricountAPI (Python)
+# TricountAPI-python
 
 A **read-only** Python wrapper for the undocumented Tricount API.  
 This project is inspired by the [mlaily/TricountApi](https://github.com/mlaily/TricountApi) F# implementation, adapted and reimplemented in Python.
