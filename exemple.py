@@ -1,4 +1,4 @@
-from api import TricountAPI
+from tricount_api import TricountAPI
 
 
 if __name__ == "__main__":
