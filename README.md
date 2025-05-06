@@ -101,4 +101,4 @@ Use of this library involves interacting with an official API that is not public
 
 ## License
 
-Specify your chosen license here.
+MIT License
