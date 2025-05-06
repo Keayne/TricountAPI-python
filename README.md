@@ -42,23 +42,23 @@ pip install requests cryptography
 from tricount_api import TricountAPI
 
 # Initialize with tricount public identifier token
-api = TricountAPI(tricount_key="your_tricount_key_here")
+trapi = TricountAPI(tricount_key="tZqzdVuUqIcJBaTVmo")
 
 # Access raw JSON data
-data = api.get_data()
+data = trapi.get_data()
 
 # Get all users: dict of {user_id: user_name}
-users = api.get_users()
+users = trapi.get_users()
 
 # Get all expenses (list of amounts)
-all_expenses = api.get_expenses()
+all_expenses = trapi.get_expenses()
 
 # Get expenses filtered by user ID
 user_id = list(users.keys())[0]
-user_expenses = api.get_expenses(user_id=user_id)
+user_expenses = trapi.get_expenses(user_id=user_id)
 
 # Update data by making a new API request
-api.update_data()
+trapi.update_data()
 ```
 
 
