@@ -97,8 +97,3 @@ This Python implementation is inspired by and builds upon the work of [mlaily](h
 ## Disclaimer
 
 Use of this library involves interacting with an official API that is not publicly documented or endorsed by Tricount. Be aware that endpoints or behaviors may change and break this wrapper. This wrapper does not support modifying data and should be used only for reading tricount information.
-
-
-## License
-
-MIT License
