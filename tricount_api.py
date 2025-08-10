@@ -149,7 +149,7 @@ class TricountAPI():
                     if allocation['membership']['RegistryMembershipNonUser']['id'] == int(user_id):
                         amount = float(allocation['amount']['value'])
 
-            if amount != None:
+            if amount is not None:
                 expenses.append(amount)
 
         return expenses
